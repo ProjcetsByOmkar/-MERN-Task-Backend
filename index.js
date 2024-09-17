@@ -79,7 +79,7 @@ app.delete("/deleteall", async (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://oghogare89:AtyUb8joWIsZxG54@demo.oakzb.mongodb.net/?retryWrites=true&w=majority&appName=DEMO",
+    "<YOUR DATABASE>",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
